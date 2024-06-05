@@ -1,0 +1,33 @@
+# boot.dev
+# how my code would look like after given an assignment in Python.
+# On line 5, 7, and 9 is the lesson boot.dev has given me.
+
+# In the countdown_to_blastoff function, write a loop that counts down from 10 to 1. At each iteration, print the number with an ellipsis:
+
+# i...
+
+# However, when i is 1, it should print 1...Blastoff! instead.
+
+
+def countdown_to_blastoff():
+    for i in range(10, 0, -1):
+        if i == 1:
+            print(f"{i}...Blastoff!")
+        else:
+            print(f"{i}...")
+
+# Lets say this is the terminal. If I ran my code it would look like this:
+Counting down to blastoff:
+
+10...
+9...
+8...
+7...
+6...
+5...
+4...
+3...
+2...
+1...Blastoff!
+
+# ===============================================================================================================================
