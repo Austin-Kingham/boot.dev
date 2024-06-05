@@ -1,0 +1,18 @@
+# In the calculate_squares function, write a loop that calculates and prints the squares of the numbers from the start parameter up to the given end parameter.
+# Use the following format to print each line:
+# NUM squared = SQUARE
+# Where NUM is the number, and SQUARE is its square.
+
+def calculate_squares(start, end):
+    for i in range(start, end):
+        print(f"{i} squared = {i*i}")
+
+# If I ran my code, it would look like this:
+Using inputs start: 100 and end: 105
+Calculating squares from 100 to 105
+
+100 squared = 10000
+101 squared = 10201
+102 squared = 10404
+103 squared = 10609
+104 squared = 10816
